@@ -27,6 +27,13 @@ or using [rbenv](https://github.com/rbenv/rbenv):
 rbenv install 3.0.0
 ```
 
+### Install dependencies
+
+Using [Bundler](https://github.com/bundler/bundler) and [Yarn](https://github.com/yarnpkg/yarn):
+
+```
+bundle && yarn
+```
 
 ### Migrate the database
 
