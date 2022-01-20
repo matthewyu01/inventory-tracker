@@ -19,4 +19,10 @@
     <%= item.description %>
   </p>
 
+  <% if item.image.attached? %>
+    <image src="<%=(url_for(item.image))%>">
+  <% end %>
+
+
+
 </div>

@@ -6,10 +6,6 @@
   <% @items.each do |item| %>
     <%= render item %>
 
-    <% if item.image.attached? %>
-      <image src="<%=(url_for(item.image))%>">
-    <% end %>
-
     <p>
       <%= link_to "Show this item", item %>
     </p>
