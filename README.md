@@ -1,4 +1,4 @@
-# Inventory Tracker for Shopify Backend Application
+# Inventory Tracker
 
 Simple inventory tracking web app for a hypothetical logistics company.
 
